@@ -15,15 +15,15 @@ class DEFAULT:
 class Database:
     
     def User(self):
-        retour = "test"
+        retour = "DB_User_Login"
         return retour
 
     def Pwd(self):
-        retour = "test"
+        retour = "DB_Password"
         return retour
 
     def Db(self):
-        retour = "test"
+        retour = "DB_Data_base"
         return retour
 
     def Host(self):
@@ -37,47 +37,47 @@ class Database:
 class Led_Position:
     
     def Power(self):
-        retour = 18
+        retour = 18 # Power Led GPIO Pin
         return retour
 
     def Read(self):
-        retour = 11
+        retour = 11 # Read Led GPIO Pin
         return retour
 
     def Ready(self):
-        retour = 12
+        retour = 12 # Ready Led GPIO Pin
         return retour
 
 class Buzzer_Position:
     
     def Buzzer_1(self):
-        retour = 16
+        retour = 16  # Buzzer GPIO Pin
         return retour
 
     def Buzzer_ON(self):
-        retour = True
+        retour = True # True -> Buzzer ON | False -> Buzzer OFF
         return retour
 
 class LCD:
     
     def Backlight(self):
-        retour = 29
+        retour = 29 # Backlight LCD Display GPIO Pin
         return retour
 
     def Time_OUT(self):
-        retour = 1
+        retour = 1 # Backlight LCD Display power OFF after x Minute
         return retour
 
 class Button:
     
     def Power_bt(self):
-        retour = 31
+        retour = 31 # Power Button GPIO Pin
         return retour
 
     def Reset_bt(self):
-        retour = 32
+        retour = 32 # Reset Button GPIO Pin
         return retour
 
     def PRG_End_bt(self):
-        retour = 33
+        retour = 33 # Program End Button GPIO Pin
         return retour
