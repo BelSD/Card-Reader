@@ -67,7 +67,14 @@ class LCD:
     def Time_OUT(self):
         retour = 1 # Backlight LCD Display power OFF after x Minute
         return retour
-
+    
+    def I2CBUS(self):
+        retour = 1 # I2C BUS (0 -- original Pi, 1 -- Rev 2 Pi)
+        return retour
+    
+    def ADDRESS(self):
+        retour = 0x27 # LCD I2C Address
+        return retour
 class Button:
     
     def Power_bt(self):
