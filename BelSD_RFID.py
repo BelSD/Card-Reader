@@ -17,6 +17,7 @@ import spi
 
 
 DataBase = config.Database()
+LCD_Config = config.LCD()
 
 #Connection à la Base de données
 Db_data = "host='"+DataBase.Host()+"', user='"+DataBase.User()+"', passwd='"+DataBase.Pwd()+"', db='"+DataBase.Db()+"'"
@@ -150,10 +151,10 @@ class BackLight:
 ##################
 
 # i2c bus (0 -- original Pi, 1 -- Rev 2 Pi)
-I2CBUS = 1
+I2CBUS = LCD_Config.I2CBUS()
  
 # LCD Address
-ADDRESS = 0x27
+ADDRESS = LCD_Config.ADDRESS()
  
 #import smbus
 #from time import sleep
