@@ -9,7 +9,7 @@ class DEFAULT:
         retour = "BelSD Card Reader"
         return retour
     def Client_Name(self):
-        retour = "   Jessynails   "
+        retour = "      BelSD     "
         return retour
     
 class Database:
