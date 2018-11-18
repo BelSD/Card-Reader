@@ -350,7 +350,7 @@ while boucle:
     mylcd.lcd_display_string(time.strftime("%H:%M %d/%m/%Y"), 2)
     if instruction == 'stop':
         a = fin()
-    if instruction == 'read': 
+    if instruction == 'Lire Carte...': 
         mylcd.lcd_clear()
         BKL_LCD.ON(LCD)
         LCD_IS_ON = True
