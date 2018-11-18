@@ -12,4 +12,4 @@ via un interface web sur notre cher PI
 
 Moi c'est dans le but de faire un RPI comme ordinateur de comptoire...
 
-N'ésitez pas à me donner vos commentaire ou sugestion d'améliorations :D
+
