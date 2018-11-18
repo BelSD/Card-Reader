@@ -10,4 +10,7 @@ interface web sur notre cher PI
 
 Moi c'est dans le but de faire un RPI comme ordinateur de comptoire...
 
+<img src="/Documentations/photo1.jpg"/>
+<img src="/Documentations/BelSD Card-Reader.jpg"/>
+
 
